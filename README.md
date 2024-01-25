@@ -8,11 +8,12 @@ $ npm install --save openai
 ```
 2. Change your APIKey.
 
-```javascript:index.js```
+```javascript:index.js
 const openai = new OpenAI({
   // change your APIKey
   apiKey: "sk-xxxxxxxxxxxxxxx",
 });
+```
 
 3. Run this Application.
 ```terminal:terminal
